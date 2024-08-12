@@ -1,0 +1,33 @@
+---
+title: "Vue Boiler Plate"
+publishedAt: "2024-07-18"
+summary: ""
+---
+
+Hi there!
+
+```jsx
+<template>
+  <div>
+    <h1>{{ message }}</h1>
+    <button @click="changeMessage">Change Message</button>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'MyComponent',
+  data() {
+    return {
+      message: 'Hello, World!'
+    }
+  },
+  methods: {
+    changeMessage() {
+      this.message = 'New Message'
+    }
+  }
+}
+</script>
+
+```
