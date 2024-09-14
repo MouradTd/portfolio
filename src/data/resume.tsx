@@ -3,8 +3,8 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
   name: "Mourad Arejdal",
-  initials: "DV",
-  url: "https://dillion.io",
+  initials: "MA",
+  url: "https://mourad-t.me",
   location: "Rabat ,Maroc",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
