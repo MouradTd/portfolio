@@ -6,7 +6,7 @@ export const DATA = {
   initials: "MA",
   url: "https://mourad-t.me",
   location: "Rabat ,Maroc",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  locationLink: "https://www.google.com/maps/place/rabat",
   description:
     "I am an enthusiastic developer with a keen interest in web and mobile application development.",
   summary:
