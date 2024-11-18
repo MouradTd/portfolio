@@ -46,10 +46,10 @@ export function ProjectCard({
         "flex flex-col overflow-hidden border hover:shadow-lg transition-all duration-300 ease-out h-full"
       }
     >
-      <Link
+      {/* <Link
         href={href || "#"}
         className={cn("block cursor-pointer", className)}
-      >
+      > */}
         {video && (
           <video
             src={video}
@@ -69,7 +69,7 @@ export function ProjectCard({
             className="h-40 w-full overflow-hidden object-cover object-top"
           />
         )}
-      </Link>
+      {/* </Link> */}
       <CardHeader className="px-2">
         <div className="space-y-1">
           <CardTitle className="mt-1 text-base">{title}</CardTitle>

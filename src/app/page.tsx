@@ -1,4 +1,3 @@
-import { HackathonCard } from "@/components/hackathon-card";
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
 import { ProjectCard } from "@/components/project-card";
@@ -6,7 +5,6 @@ import { ResumeCard } from "@/components/resume-card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/resume";
-import Link from "next/link";
 import Markdown from "react-markdown";
 
 const BLUR_FADE_DELAY = 0.04;
@@ -41,7 +39,7 @@ export default function Page() {
       </section>
       <section id="about">
         <BlurFade delay={BLUR_FADE_DELAY * 3}>
-          <h2 className="text-xl font-bold">About</h2>
+          <h2 className="text-xl font-bold">Á Propos</h2>
         </BlurFade>
         <BlurFade delay={BLUR_FADE_DELAY * 4}>
           <Markdown className="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert">
@@ -52,7 +50,7 @@ export default function Page() {
       <section id="work">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 5}>
-            <h2 className="text-xl font-bold">Work Experience</h2>
+            <h2 className="text-xl font-bold">Expériences Professionnelles</h2>
           </BlurFade>
           {DATA.work.map((work, id) => (
             <BlurFade
@@ -77,7 +75,7 @@ export default function Page() {
       <section id="education">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 7}>
-            <h2 className="text-xl font-bold">Education</h2>
+            <h2 className="text-xl font-bold">Formations</h2>
           </BlurFade>
           {DATA.education.map((education, id) => (
             <BlurFade
@@ -100,7 +98,7 @@ export default function Page() {
       <section id="skills">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 9}>
-            <h2 className="text-xl font-bold">Skills</h2>
+            <h2 className="text-xl font-bold">Compétences</h2>
           </BlurFade>
           <div className="flex flex-wrap gap-1">
             {DATA.skills.map((skill, id) => (
@@ -117,15 +115,15 @@ export default function Page() {
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
-                  My Projects
+                  Mes Projets
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  Check out my latest work
+                  Voir mes derniers travaux
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I&apos;ve worked on a variety of projects, from simple
-                  websites to complex web applications. Here are a few of my
-                  favorites.
+                  J&apos;ai travaillé sur une variété de projets, depuis des
+                  sites web simples jusqu&apos;à des applications web complexes.
+                  Voici quelques-uns de mes favoris.
                 </p>
               </div>
             </div>
@@ -161,14 +159,14 @@ export default function Page() {
                 Contact
               </div>
               <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                Get in Touch
+                Me Contacter
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Want to conect? Just shoot me an email{" "}
+                Vous souhaitez me contacter ? Envoyez-moi un email{" "}
                 {" "}
-                and I&apos;ll respond whenever I can.{" "}
+                et je vous répondrai dès que possible.{" "}
                 <a href="mailto:mourad.arejdal@gmail.com" className="text-blue-500 hover:underline">
-                  Email Me
+                  Mail
                 </a>
               </p>
             </div>
