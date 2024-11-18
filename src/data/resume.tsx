@@ -7,9 +7,9 @@ export const DATA = {
   url: "https://mourad-t.me",
   location: "Rabat ,Maroc",
   locationLink: "https://www.google.com/maps/place/rabat",
-  description: "",
+  description: "Je suis un développeur full-stack basé à Rabat, Maroc.",
   summary:
-    "En tant que développeur full-stack basé à Rabat, Maroc. Mes compétences incluent PHP, Laravel, Symfony, Node.js, SQL Server, MySQL, MongoDB, Java, Python, Git, Docker et Postman. J'ai développé et maintenu des applications ERP utilisant Laravel et Vue.js, en me concentrant sur la création d'APIs robustes, assurant une communication fluide entre le frontend et le backend, et en maintenant des standards élevés de qualité de code, de sécurité et de fiabilité. J'ai également une expérience dans le développement d'architectures microservices avec Java Spring Boot, utilisant des technologies comme Apache Kafka pour la messagerie asynchrone et Netflix Eureka pour la découverte de services. J'ai contribué aussi à des projets de développement web utilisant Symfony et AngularJS.",
+    "En tant que développeur full-stack. Mes compétences incluent PHP, Laravel, Symfony, Node.js, SQL Server, MySQL, MongoDB, Java, Python, Git, Docker et Postman. J'ai développé et maintenu des applications ERP utilisant Laravel et Vue.js, en me concentrant sur la création d'APIs robustes, assurant une communication fluide entre le frontend et le backend, et en maintenant des standards élevés de qualité de code, de sécurité et de fiabilité. J'ai également une expérience dans le développement d'architectures microservices avec Java Spring Boot, utilisant des technologies comme Apache Kafka pour la messagerie asynchrone et Netflix Eureka pour la découverte de services. J'ai contribué aussi à des projets de développement web utilisant Symfony et AngularJS.",
   avatarUrl: "/logo.png",
   skills: [
     "VueJS",
